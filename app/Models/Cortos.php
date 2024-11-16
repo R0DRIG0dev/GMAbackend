@@ -11,6 +11,7 @@ use Database\Factories\CortoFactory;
 class Cortos extends Model
 {
     use HasFactory;
+    
     public $timestamps = false;
 
     protected static function newFactory(): Factory
